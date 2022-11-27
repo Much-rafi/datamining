@@ -53,7 +53,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Diabetic" href="Diabetic.html" />
-    <link rel="prev" title="Tugas 5" href="Tugas5.html" />
+    <link rel="prev" title="Implementasi K-Means Clustering" href="Tugas5.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -126,20 +126,22 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Tugas3.html">
-   Tugas 3
+   <strong>
+    Klasifikasi Data K-NN
+   </strong>
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Tugas4.html">
    <strong>
-    Tugas 4
+    Implementasi Decision Tree
    </strong>
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Tugas5.html">
    <strong>
-    Tugas 5
+    Implementasi K-Means Clustering
    </strong>
   </a>
  </li>
@@ -571,7 +573,7 @@ title="Print to PDF"
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-23f67708-0458-45e3-8787-6ec50b44b1fe">
+  <div id="df-cbffb6ad-cc6e-4ffd-8e6a-cde7b8277c56">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -751,7 +753,7 @@ title="Print to PDF"
 </table>
 <p>116 rows × 10 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-23f67708-0458-45e3-8787-6ec50b44b1fe')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-cbffb6ad-cc6e-4ffd-8e6a-cde7b8277c56')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -802,12 +804,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-23f67708-0458-45e3-8787-6ec50b44b1fe button.colab-df-convert');
+          document.querySelector('#df-cbffb6ad-cc6e-4ffd-8e6a-cde7b8277c56 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-23f67708-0458-45e3-8787-6ec50b44b1fe');
+          const element = document.querySelector('#df-cbffb6ad-cc6e-4ffd-8e6a-cde7b8277c56');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -860,7 +862,7 @@ title="Print to PDF"
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-c2162257-002b-496b-b34f-d153c68e1f1b">
+  <div id="df-99b74a8a-2a18-4e77-8c57-0b3b1f02fa59">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -955,7 +957,7 @@ title="Print to PDF"
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-c2162257-002b-496b-b34f-d153c68e1f1b')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-99b74a8a-2a18-4e77-8c57-0b3b1f02fa59')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -1006,12 +1008,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-c2162257-002b-496b-b34f-d153c68e1f1b button.colab-df-convert');
+          document.querySelector('#df-99b74a8a-2a18-4e77-8c57-0b3b1f02fa59 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-c2162257-002b-496b-b34f-d153c68e1f1b');
+          const element = document.querySelector('#df-99b74a8a-2a18-4e77-8c57-0b3b1f02fa59');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1204,7 +1206,7 @@ cv_scores mean:0.4829710144927536
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-ad008665-ed47-445a-b351-088e97739e00">
+  <div id="df-e7d87d86-0527-4953-a62d-d4e960875aeb">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -1384,7 +1386,7 @@ cv_scores mean:0.4829710144927536
 </table>
 <p>116 rows × 10 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-ad008665-ed47-445a-b351-088e97739e00')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e7d87d86-0527-4953-a62d-d4e960875aeb')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -1435,12 +1437,12 @@ cv_scores mean:0.4829710144927536
 
       <script>
         const buttonEl =
-          document.querySelector('#df-ad008665-ed47-445a-b351-088e97739e00 button.colab-df-convert');
+          document.querySelector('#df-e7d87d86-0527-4953-a62d-d4e960875aeb button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-ad008665-ed47-445a-b351-088e97739e00');
+          const element = document.querySelector('#df-e7d87d86-0527-4953-a62d-d4e960875aeb');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1520,7 +1522,7 @@ cv_scores mean:0.4829710144927536
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><strong>Tugas 5</strong></p>
+            <p class="prev-next-title"><strong>Implementasi K-Means Clustering</strong></p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="Diabetic.html" title="next page">
